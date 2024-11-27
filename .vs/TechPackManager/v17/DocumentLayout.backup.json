@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\controllers\\materialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:controllers\\materialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\models\\tblmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:models\\tblmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\models\\tbltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:models\\tbltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\models\\tblunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:models\\tblunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TblMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblMaterial.cs",
+              "RelativeDocumentMoniker": "Models\\TblMaterial.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblMaterial.cs",
+              "RelativeToolTip": "Models\\TblMaterial.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:15:52.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:22:42.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:31:18.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TblType.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblType.cs",
+              "RelativeDocumentMoniker": "Models\\TblType.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblType.cs",
+              "RelativeToolTip": "Models\\TblType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:06:39.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Views\\Materials\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Materials\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Views\\Materials\\Index.cshtml",
+              "RelativeToolTip": "Views\\Materials\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T19:00:56.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaterialsController.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Controllers\\MaterialsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MaterialsController.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Controllers\\MaterialsController.cs",
+              "RelativeToolTip": "Controllers\\MaterialsController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:35:36.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TblUnit.cs",
+              "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblUnit.cs",
+              "RelativeDocumentMoniker": "Models\\TblUnit.cs",
+              "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Models\\TblUnit.cs",
+              "RelativeToolTip": "Models\\TblUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T18:14:34.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

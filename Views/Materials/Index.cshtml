@@ -1,0 +1,156 @@
+﻿@model IEnumerable<TechPackManager.Models.TblMaterial>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tech Pack Manager</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h2 class="text-center mb-4">Manage Materials</h2>
+
+        <!-- Form to Add New Material -->
+        <form id="addMaterialForm" asp-action="Add" asp-controller="Materials" method="post" class="form-inline">
+            @Html.AntiForgeryToken()
+
+            <div class="col-md-4">
+                <label for="MaterialName" class="form-label">Material Name</label>
+                <input type="text" name="MaterialName" class="form-control" placeholder="Material Name" required />
+            </div>
+            <div class="col-md-4">
+                <label for="Type" class="form-label">Type</label>
+                <select name="Type" class="form-select" required>
+                    <option value="">Select Type</option>
+                    @foreach (var type in ViewBag.Types)
+                    {
+                        <option value="@type.TypeName">@type.TypeName</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="Unit" class="form-label">Unit</label>
+                <select name="Unit" class="form-select" required>
+                    <option value="">Select Unit</option>
+                    @foreach (var unit in ViewBag.Units)
+                    {
+                        <option value="@unit.UnitName">@unit.UnitName</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="Rate" class="form-label">Rate</label>
+                <input type="number" name="Rate" class="form-control" required />
+            </div>
+            <div class="col-md-4">
+                <label for="Consumption" class="form-label">Consumption</label>
+                <input type="number" name="Consumption" class="form-control" required />
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <button type="submit" class="btn btn-success w-100">Add Material</button>
+            </div>
+        </form>
+
+        <!-- Display the list of Materials in a Table -->
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Material Name</th>
+                    <th>Type</th>
+                    <th>Unit</th>
+                    <th>Rate</th>
+                    <th>Consumption</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <form asp-action="Edit" method="post">
+                        <td><input type="text" name="MaterialName" value="@item.MaterialName" class="form-control" required /></td>
+                        <td>
+                            <select name="Type" class="form-select" required>
+                                <option value="">Select Type</option>
+                                    @foreach (var type in ViewBag.Types)
+                                    {
+                                    <option value="@type.TypeName" @(type.TypeName == item.Types ? "selected" : "")>@type.TypeName</option>
+                                    }
+                            </select>
+                        </td>
+                        <td>
+                            <select name="Unit" class="form-select" required>
+                                <option value="">Select Unit</option>
+                                    @foreach (var unit in ViewBag.Units)
+                                    {
+                                    <option value="@unit.UnitName" @(unit.UnitName == item.Units ? "selected" : "")>@unit.UnitName</option>
+                                    }
+                            </select>
+                        </td>
+                        <td><input type="number" name="Rate" value="@item.Rate" class="form-control" required /></td>
+                        <td><input type="number" name="Consumption" value="@item.Consumption" class="form-control" required /></td>
+                        <td class="d-flex gap-2">
+                            @* <input type="hidden" name="MaterialId" value="@item.MaterialId" /> *@
+                            <button type="submit" class="btn btn-warning w-100">Save</button>
+                            @* <button type="button" class="btn btn-danger w-100" onclick="deleteMaterial(@item.MaterialId)">Delete</button> *@
+                        </td>
+                        </form>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- JavaScript for Deleting Material -->
+    <script>
+        function deleteMaterial(id) {
+            if (confirm('Are you sure you want to delete this material?')) {
+                // Create a form and submit it via POST
+                var form = document.createElement('form');
+                form.method = 'POST';
+                form.action = '@Url.Action("Delete")';
+
+                var input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = 'id';
+                input.value = id;
+
+                form.appendChild(input);
+                document.body.appendChild(form);
+                form.submit();
+            }
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
