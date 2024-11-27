@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechPackManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+484e4da44d4db752face91c6b4d523cd9004c698")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechPackManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechPackManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

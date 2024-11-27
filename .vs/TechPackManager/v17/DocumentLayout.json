@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\controllers\\materialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:controllers\\materialscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|solutionrelative:views\\materials\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5529158E-EDEC-48A3-8E8D-9FB834720332}|TechPackManager.csproj|c:\\users\\pulki\\source\\repos\\techpackmanager\\models\\tblmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "Models\\TblMaterial.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:15:52.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:15:52.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -72,13 +71,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T18:31:18.177Z",
               "EditorCaption": ""
@@ -93,12 +92,11 @@
               "RelativeToolTip": "Models\\TblType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:06:39.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:06:39.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Views\\Materials\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Materials\\Index.cshtml",
@@ -111,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MaterialsController.cs",
               "DocumentMoniker": "C:\\Users\\pulki\\source\\repos\\TechPackManager\\Controllers\\MaterialsController.cs",
               "RelativeDocumentMoniker": "Controllers\\MaterialsController.cs",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "Models\\TblUnit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:14:34.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:14:34.263Z"
             }
           ]
         }

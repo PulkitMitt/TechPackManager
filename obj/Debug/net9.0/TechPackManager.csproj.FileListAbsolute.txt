@@ -216,3 +216,4 @@ C:\Users\pulki\source\repos\TechPackManager\obj\Debug\net9.0\refint\TechPackMana
 C:\Users\pulki\source\repos\TechPackManager\obj\Debug\net9.0\TechPackManager.pdb
 C:\Users\pulki\source\repos\TechPackManager\obj\Debug\net9.0\TechPackManager.genruntimeconfig.cache
 C:\Users\pulki\source\repos\TechPackManager\obj\Debug\net9.0\ref\TechPackManager.dll
+C:\Users\pulki\source\repos\TechPackManager\obj\Debug\net9.0\TechPackManager.sourcelink.json
